@@ -18,7 +18,7 @@ export default function Home() {
       {/* Header */}
       <header className="fixed w-full top-0 z-50 bg-black bg-opacity-90">
         <div className="container mx-auto flex justify-between items-center px-6 py-4">
-          <h1 className="text-2xl font-bold">BrandName</h1>
+          <h1 className="text-2xl font-bold">OVOU</h1>
           <nav className="hidden md:flex space-x-6">
             <Link href="#" className="text-gray-300 hover:text-white">For Teams</Link>
             <Link href="#" className="text-gray-300 hover:text-white">Resources</Link>
@@ -90,7 +90,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-6 mt-12">
         <div className="container mx-auto text-center">
-          <p>© {new Date().getFullYear()} BrandName. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} OVOU. All rights reserved.</p>
         </div>
       </footer>
     </div>
